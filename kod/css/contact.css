@@ -1,0 +1,146 @@
+/* Уникальные стили только для страницы контактов */
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000000;
+}
+
+.contact-form h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.form-group input::placeholder {
+    color: #666666;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.required {
+    color: red;
+    margin-left: 3px;
+}
+
+.success-message {
+    display: none;
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border-radius: 4px;
+    border: 1px solid #c3e6cb;
+}
+
+.error-message {
+    display: none;
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+}
+
+.form-group input.error {
+    border-color: #dc3545;
+    background-color: #fff8f8;
+}
+
+.form-group input.error:focus {
+    box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.25);
+}
+
+@media (max-width: 600px) {
+  .contact-content {
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: unset;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-form {
+    width: 100vw;
+    min-height: 60vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    max-width: unset;
+    min-width: unset;
+    margin: 0;
+    padding: 4vh 2vw 4vh 2vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .contact-form h2 {
+    font-size: 1.3rem;
+  }
+  .form-group input {
+    font-size: 1.2em;
+    padding: 16px;
+  }
+  .submit-button {
+    font-size: 1.2em;
+    padding: 18px 0;
+  }
+} 
