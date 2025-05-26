@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splush - Главная страница</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <a href="contact.html" class="contact-link">Связаться с продавцом</a>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Splush Logo" class="site-logo">
+            <h1>Splush</h1>
+        </div>
+        <nav class="header-nav">
+            <a href="index.html" class="active">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="about.html">О компании</a>
+        </nav>
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <h1>Добро пожаловать в Splush</h1>
+        <p>Ваш надежный партнер в выборе накопителей памяти. У нас вы найдете широкий ассортимент SSD-накопителей, флешек и жестких дисков от ведущих производителей.</p>
+        <a href="catalog.html" class="cta-button">Перейти в каталог</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991110.png" alt="Качество">
+            <h3>Гарантия качества</h3>
+            <p>Все товары от официальных поставщиков с гарантией производителя</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Доставка">
+            <h3>Профессиональная консультация</h3>
+            <p>Поможем выбрать оптимальный накопитель под ваши задачи — бесплатно и без навязывания.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/4961/4961512.png" alt="Цены">
+            <h3>Лучшие цены</h3>
+            <p>Регулярные акции и специальные предложения для наших клиентов</p>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2>Наши категории товаров</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/SSD1.jpg" alt="SSD-накопители">
+                <a href="catalog.html" class="overlay">SSD-накопители</a>
+            </div>
+            <div class="category-card">
+                <img src="images/USB1.jpg" alt="Флешки">
+                <a href="catalog2.html" class="overlay">Флешки</a>
+            </div>
+            <div class="category-card">
+                <img src="images/HDD1.jpg" alt="Жесткие диски">
+                <a href="catalog3.html" class="overlay">Жесткие диски</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <h2>Наши магазины в Минске</h2>
+        <div id="map" style="width: 50%; height: 400px; background: #181818; margin: 0 auto;"></div>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_API_ключ&lang=ru_RU" type="text/javascript"></script>
+        <script src="js/index_map.js"></script>
+    </section>
+
+    <section class="about-section">
+        <h2>О компании</h2>
+        <p>Splush - это современный магазин накопителей памяти, работающий на рынке Беларуси с 2020 года. Мы специализируемся на продаже качественных накопителей данных от ведущих мировых производителей. Наша миссия - помочь каждому клиенту найти оптимальное решение для хранения данных, предоставляя профессиональную консультацию и гарантируя качество продукции.</p>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <div>
+                <h3>Контакты</h3>
+                <p>Телефон: +375 (29) 123-45-67</p>
+                <p>Email: infosplush@gmail.com</p>
+            </div>
+            <div>
+                <h3>Социальные сети</h3>
+                <p>Instagram: @splush</p>
+                <p>Telegram: @splush_support</p>
+            </div>
+            <div class="about-company">
+                <h3><a href="about.html">О компании</a></h3>
+                <p>Splush - ваш надежный партнер в мире накопителей памяти. Мы предлагаем широкий выбор накопителей (SSD, флешки и жесткие диски) от ведущих производителей с гарантией качества и профессиональной поддержкой.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/burger-menu.js"></script>
+</body>
+</html>
