@@ -1,7 +1,4 @@
 /* Уникальные стили только для каталога товаров */
-
-/* Пример: стили для .product-card .image-container, .sort-panel, .pagination, и т.д. */
-
 .product-card .image-container {
   position: relative;
   width: 300px;

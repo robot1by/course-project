@@ -1,5 +1,3 @@
-// Скрипт для работы фильтров в каталогах
-
 document.addEventListener('DOMContentLoaded', function() {
     const applyBtn = document.querySelector('.apply-filters');
     const resetBtn = document.querySelector('.reset-filters');
